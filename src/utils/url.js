@@ -1,3 +1,3 @@
-const local = 'http://localhost:8080'
+const local = 'https://smart-h-backend.herokuapp.com/'
 
 export {local}
