@@ -171,6 +171,8 @@ export default class ChangeState extends React.Component{
                     size="small"
                     defaultValue={parseInt(el.varState)}
                     aria-label="Small"
+                    min={0}
+                    max={1023}
                     name={el.app}
                     valueLabelDisplay="auto"
                     onChangeCommitted={this.onSliderChangeCommit}
